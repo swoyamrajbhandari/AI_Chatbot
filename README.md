@@ -33,27 +33,26 @@ All necessary packages are already included in node_modules, so you do not need 
 
 Create a .env file in the root of the project:
 
-bash
-Copy code
+```bash
 cp .env.example .env   # Linux/Mac
 copy .env.example .env # Windows
+```
 Open .env and add your OpenAI API key:
 
-ini
-Copy code
+```ini
 OPENAI_SECRET_KEY=your_openai_api_key_here
+```
 Important: Keep .env private. Never share your API key publicly.
 
 Run the chatbot:
 
-bash
-Copy code
+```bash
 npm run dev
+```
 You will be prompted in the terminal to type messages. The AI will respond and maintain the conversation.
 
 Project Structure
-perl
-Copy code
+```perl
 AI_Chatbot/
 │
 ├─ index.js            # Main chatbot script
@@ -63,7 +62,8 @@ AI_Chatbot/
 ├─ .env.example        # Example environment variables (safe to share)
 ├─ .gitignore          # Ignored files for Git (e.g., .env)
 └─ README.md           # This file
-Notes
+```
+## Notes
 The chatbot requires a valid OpenAI API key to function. You can obtain one from OpenAI.
 
 Even though node_modules is included, you can still update or add packages using npm install <package>.
