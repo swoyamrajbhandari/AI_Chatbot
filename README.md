@@ -23,13 +23,13 @@ The chatbot has a quirky personality: it identifies as an egg named **Rufus** an
 ## Installation / Setup
 
 1. **Clone the repository**:
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/AI_Chatbot.git
 cd AI_Chatbot
+```
 All necessary packages are already included in node_modules, so you do not need to run npm install.
 
-Set up environment variables:
+## Set up environment variables:
 
 Create a .env file in the root of the project:
 
