@@ -27,31 +27,31 @@ The chatbot has a quirky personality: it identifies as an egg named **Rufus** an
 git clone https://github.com/YOUR_USERNAME/AI_Chatbot.git
 cd AI_Chatbot
 ```
-All necessary packages are already included in node_modules, so you do not need to run npm install.
+- All necessary packages are already included in node_modules, so you do not need to run npm install.
 
 ---
 
 ## Set up environment variables:
 
-Create a .env file in the root of the project:
+- Create a .env file in the root of the project:
 
 ```bash
 cp .env.example .env   # Linux/Mac
 copy .env.example .env # Windows
 ```
-Open .env and add your OpenAI API key:
+- Open .env and add your OpenAI API key:
 
 ```ini
 OPENAI_SECRET_KEY=your_openai_api_key_here
 ```
 Important: Keep .env private. Never share your API key publicly.
 
-Run the chatbot:
+- Run the chatbot:
 
 ```bash
 npm run dev
 ```
-You will be prompted in the terminal to type messages. The AI will respond and maintain the conversation.
+- You will be prompted in the terminal to type messages. The AI will respond and maintain the conversation.
 
 ---
 
@@ -69,9 +69,9 @@ AI_Chatbot/
 ```
 ---
 ## Notes
-The chatbot requires a valid OpenAI API key to function. You can obtain one from OpenAI.
+- The chatbot requires a valid OpenAI API key to function. You can obtain one from OpenAI.
 
-Even though node_modules is included, you can still update or add packages using npm install <package>.
+- Even though node_modules is included, you can still update or add packages using npm install <package>.
 
-Feel free to modify the chatbot’s personality by editing the context variable in index.js.
+- Feel free to modify the chatbot’s personality by editing the context variable in index.js.
 
