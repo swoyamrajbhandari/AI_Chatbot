@@ -29,6 +29,8 @@ cd AI_Chatbot
 ```
 All necessary packages are already included in node_modules, so you do not need to run npm install.
 
+---
+
 ## Set up environment variables:
 
 Create a .env file in the root of the project:
@@ -51,7 +53,9 @@ npm run dev
 ```
 You will be prompted in the terminal to type messages. The AI will respond and maintain the conversation.
 
-Project Structure
+---
+
+## Project Structure
 ```perl
 AI_Chatbot/
 │
@@ -63,6 +67,7 @@ AI_Chatbot/
 ├─ .gitignore          # Ignored files for Git (e.g., .env)
 └─ README.md           # This file
 ```
+---
 ## Notes
 The chatbot requires a valid OpenAI API key to function. You can obtain one from OpenAI.
 
