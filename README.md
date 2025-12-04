@@ -1,4 +1,4 @@
-#AI_Chatbot
+# AI_Chatbot
 
 A simple interactive chatbot powered by OpenAI's GPT-3.5 API.  
 The chatbot has a quirky personality: it identifies as an egg named **Rufus** and loves to tell jokes. Users can interact with it through the terminal.
